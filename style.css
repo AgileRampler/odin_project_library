@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+ 
+}
+.dialog-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+ 
+}
+
+dialog{
+    margin-left: 27%;
+    margin-top: 14%;
+    height: 65%;
+    width: 50%;
+    overflow: none;
+    
+}
+.dialogCon{
+    margin-left: 10%;
+}
+.dialogCon div{
+    padding: 0.6rem;
+}
+.icon{
+    position: absolute;
+    margin-left: 36rem;
+    margin-top: -2rem;
+    cursor: pointer;
+}
+.author input {
+    margin-left: 70px;
+    padding: 3px;
+    
+}
+
+.book-pages input {
+    margin-left: 30px;
+    padding: 3px;
+    
+}
+ .book-title input{
+    margin-left: 33px;
+    padding: 3px;
+
+}
+.status input{
+margin-left: 60px;
+}
+#submitButton{
+    margin-top: 16px;
+    margin-left: 15rem;
+    
+}
+::backdrop{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+    #card-header{
+     
+        padding: 20px;
+        
+        margin: 2rem;
+        display: inline-block;
+        
+    }
+   
+
+  .text-content{
+   
+  
+    font-size: 0.8rem;
+   
+  }
+
+  #cards    {
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    background-image: url(./background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 71.4vh;
+  }
